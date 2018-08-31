@@ -1,0 +1,65 @@
+
+
+section {
+    padding: 2em;
+}
+
+footer {
+    text-align: right;
+
+
+
+    height: 250px;
+    bottom: 0;
+    width: 100%;
+
+}
+
+#navStempro {
+    padding: 25px;
+}
+
+#mainSlider {
+    max-height: 500px;
+}
+
+.navbar-brand img {
+    width: 150px;
+}
+
+.card-header {
+    text-align: center;
+
+}
+
+.everyOther {
+    background-color: #efefef;
+}
+
+#headerContacto {
+    background-color: #efefef !important;
+}
+
+#headerContacto>h3>i{
+    color: black !important;
+}
+
+.negrita {
+    font-weight: bold;
+}
+
+.faq {
+    padding-top: 1em;
+}
+
+.faq .card {
+    padding: 1em;
+}
+
+.faq .card .card-text{
+    padding: 1em;
+}
+
+.regPadding {
+    padding: 1em;
+}
