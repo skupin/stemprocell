@@ -1,18 +1,12 @@
-
-
 section {
     padding: 2em;
 }
 
 footer {
     text-align: right;
-
-
-
     height: 250px;
     bottom: 0;
     width: 100%;
-
 }
 
 #navStempro {
@@ -23,8 +17,39 @@ footer {
     max-height: 500px;
 }
 
+#headerContacto {
+    background-color: #efefef !important;
+}
+
+#header {
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+
+
+/*move branding*/
+.navbar-brand {
+    transform: translateX(-50%);
+    left: 10%;
+    bottom: 5%;
+    position: absolute;
+}
+
+#socialIcons{
+    padding: 0px;
+}
+
+
+/*align the navbar to the right*/
+#navBarItems {
+    right: 0;
+    bottom: 5%;
+    position: absolute;
+}
+
 .navbar-brand img {
-    width: 150px;
+    width: 300px;
 }
 
 .card-header {
@@ -34,14 +59,6 @@ footer {
 
 .everyOther {
     background-color: #efefef;
-}
-
-#headerContacto {
-    background-color: #efefef !important;
-}
-
-#headerContacto>h3>i{
-    color: black !important;
 }
 
 .negrita {
