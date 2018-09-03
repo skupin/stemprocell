@@ -1,7 +1,7 @@
 <!--BEGINNING OF FOOTER-->
 
 
-        <footer class="py-5 navbar-light bg-faded everyOther">
+        <footer class="py-5 navbar-light bg-faded">
             <div class="container">
                 <div class="row">
                     <div class="col-3 col-md text-center">

@@ -54,9 +54,7 @@
                     <a class="nav-link" href="nosotros.php">Nosotros</a>
                 </li>
                 <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle <?php if (strpos($pageName, 'trata') !== false) {
-                        echo ' active';
-                    } ?>" href="#" id="terapias" role="button" data-toggle="dropdown"
+                    <a class="nav-link dropdown-toggle <?php if (strpos($pageName, 'trata') !== false) {echo ' active';} ?>" href="#" id="terapias" role="button" data-toggle="dropdown"
                        aria-haspopup="true" aria-expanded="false">
                         Tratamientos
                     </a>
@@ -64,9 +62,7 @@
                         <a class="dropdown-item <?php if ($pageName === 'tratamientos_clinicos.php') {
                             echo ' active';
                         } ?>" href="tratamientos_clinicos.php">Uso Clinico</a>
-                        <a class="dropdown-item <?php if ($pageName === 'tratamientos_cosmeticos.php') {
-                            echo ' active';
-                        } ?>" href="tratamientos_cosmeticos.php">Uso Cosmetico</a>
+                        <a class="dropdown-item <?php if ($pageName === 'tratamientos_cosmeticos.php') {echo ' active';} ?>" href="tratamientos_cosmeticos.php">Uso Cosmetico</a>
                         <a class="dropdown-item <?php if ($pageName === 'tratamientos_ort_trm.php') {
                             echo ' active';
                         } ?>" href="tratamientos_ort_trm.php">Uso en Ortopedia y Traumatologia</a>
@@ -82,11 +78,22 @@
                 } ?>">
                     <a class="nav-link" href="testimonios.php">Testimonios</a>
                 </li>
-                <li class="nav-item <?php if ($pageName === 'instalaciones.php') {
-                    echo ' active';
-                } ?>">
-                    <a class="nav-link" href="instalaciones.php">Instalaciones</a>
+
+
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle <?php if (strpos($pageName, 'instala') !== false) {
+                        echo ' active';
+                    } ?>" href="#" id="instalaciones" role="button" data-toggle="dropdown"
+                       aria-haspopup="true" aria-expanded="false">
+                        Instalaciones
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="instalaciones">
+                        <a class="dropdown-item <?php if ($pageName === 'instalaciones_usa.php') {echo ' active';} ?>" href="instalaciones_usa.php">Estados Unidos</a>
+                        <a class="dropdown-item <?php if ($pageName === 'instalaciones_rd.php') {echo ' active';} ?>" href="instalaciones_rd.php">Republica Dominicana</a>
+                    </div>
                 </li>
+
+
                 <li class="nav-item <?php if ($pageName === 'contacto.php') {
                     echo " active";
                 } ?>">

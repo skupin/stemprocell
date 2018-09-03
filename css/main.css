@@ -56,6 +56,10 @@ footer {
     width: 300px;
 }
 
+.card {
+    border: none;
+}
+
 .card-header {
     text-align: center;
 
