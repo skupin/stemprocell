@@ -25,7 +25,7 @@
                                 <button class="btn btn-outline-secondary" type="button">Enviar</button>
                             </div>
                         </div>
-                    </div>
+                    </div>w
                     <div class="col-3 col-md text-center">
                         <h5>About</h5>
                         <ul class="list-unstyled text-small">

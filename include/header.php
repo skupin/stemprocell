@@ -43,7 +43,7 @@
 
         <div class="collapse navbar-collapse flex-grow-1 text-right" id="mainNav">
             <ul class="navbar-nav ml-auto flex-nowrap" id="navBarItems">
-                <li class="nav-item <?php if ($pageName === 'index.php') {
+                <li class="nav-item <?php if ($pageName === 'index_original.php') {
                     echo ' active';
                 } ?>">
                     <a class="nav-link" href="index.php">Inicio <span class="sr-only">(current)</span></a>
