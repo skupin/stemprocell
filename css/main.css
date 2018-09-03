@@ -5,7 +5,7 @@ section {
 footer {
     text-align: right;
     height: 250px;
-    bottom: 0;
+    /*bottom: 0;*/
     width: 100%;
 }
 
@@ -38,6 +38,10 @@ footer {
 
 #socialIcons{
     padding: 0px;
+}
+
+#footerBranding>div>img{
+    width: 75px;
 }
 
 
