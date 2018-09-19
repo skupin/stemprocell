@@ -1,16 +1,20 @@
 <?php include "include/header.php"; ?>
-<div class="container">
 
-
-    <div class="row">
-        <div class="col-sm-12">
-            <div class="jumbotron jumbotron-fluid" id="trat-clinicos-header">
-                <div class="container">
-                    <h1 class="display-4 text-center">Usos Clinicos</h1>
-                </div>
+<div class="row">
+    <div class="col-sm-12">
+        <div class="jumbotron jumbotron-fluid section-header" id="trat-clinicos-header">
+            <div class="container">
+                <h1 class="display-4 text-center">Uso Clinico</h1>
             </div>
         </div>
     </div>
+</div>
+
+
+<div class="container">
+
+
+
 
 
     <div id="accordion">

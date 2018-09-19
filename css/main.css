@@ -34,6 +34,13 @@ h6 {
     background-image: url('../img/clinico.jpg');
 }
 
+#trat-cosmeticos-header {
+    background-image: url('../img/cosmeticos.jpg');
+}
+
+#trat-ortopedia-header {
+    background-image: url('../img/ortopedia.jpg');
+}
 
 
 #socialIcons{
@@ -52,6 +59,18 @@ h6 {
     position: absolute;
 }
 
+
+.section-header {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: transparent;
+    background-size: cover;
+}
+
+.section-header>div>h1 {
+    color: white;
+    text-shadow: 2px 2px #000000;
+}
 
 /*move branding*/
 .navbar-brand {
