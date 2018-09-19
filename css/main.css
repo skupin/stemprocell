@@ -30,15 +30,11 @@ h6 {
     padding-bottom: 1em;
 }
 
-
-
-/*move branding*/
-.navbar-brand {
-    transform: translateX(-50%);
-    left: 10%;
-    bottom: 5%;
-    position: absolute;
+#trat-clinicos-header {
+    background-image: url('../img/clinico.jpg');
 }
+
+
 
 #socialIcons{
     padding: 0px;
@@ -52,6 +48,15 @@ h6 {
 /*align the navbar to the right*/
 #navBarItems {
     right: 0;
+    bottom: 5%;
+    position: absolute;
+}
+
+
+/*move branding*/
+.navbar-brand {
+    transform: translateX(-50%);
+    left: 10%;
     bottom: 5%;
     position: absolute;
 }
@@ -91,4 +96,12 @@ h6 {
 
 .regPadding {
     padding: 1em;
+}
+
+.top-jumbotron {
+    height: 315px;
+}
+
+.tab-tittle {
+    text-align: center;
 }
