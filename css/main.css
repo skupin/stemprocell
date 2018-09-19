@@ -9,6 +9,10 @@ footer {
     width: 100%;
 }
 
+h6 {
+    font-weight: bold;
+}
+
 #navStempro {
     padding: 25px;
 }
