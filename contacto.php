@@ -1,50 +1,71 @@
 <?php include "include/header.php"; ?>
     <div class="container">
         <section>
-            <form action="mail.php" method="post">
-                <div class="card border-primary rounded-0">
-                    <div class="card-header p-0 " >
-                        <div class="bg-info text-white text-center py-2" id="headerContacto">
-                            <h3><i class="fa fa-envelope"></i> Contactanos</h3>
-                            <p class="m-0">Con gusto te ayudaremos</p>
-                        </div>
-                    </div>
-                    <div class="card-body p-3">
 
-                        <!--Body-->
-                        <div class="form-group">
-                            <div class="input-group mb-2">
-                                <div class="input-group-prepend">
-                                    <div class="input-group-text"><i class="fa fa-user text-info"></i></div>
-                                </div>
-                                <input type="text" class="form-control" id="nombre" name="nombre" placeholder="Nombre y Apellido" required>
-                            </div>
-                        </div>
-                        <div class="form-group">
-                            <div class="input-group mb-2">
-                                <div class="input-group-prepend">
-                                    <div class="input-group-text"><i class="fa fa-envelope text-info"></i></div>
-                                </div>
-                                <input type="email" class="form-control" id="nombre" name="email" placeholder="ejemplo@gmail.com" required>
-                            </div>
-                        </div>
+            <h4>Póngase en contacto con Stemprocell®</h4>
 
-                        <div class="form-group">
-                            <div class="input-group mb-2">
-                                <div class="input-group-prepend">
-                                    <div class="input-group-text"><i class="fa fa-comment text-info"></i></div>
-                                </div>
-                                <textarea class="form-control" placeholder="Envianos tu Mensaje" required></textarea>
-                            </div>
-                        </div>
+            <p>Sólo debe llenar el siguiente formulario de contacto y nosotros nos comunicaremos con usted para
+                responder a sus preguntas y proporcionarle la información solicitada.</p>
 
-                        <div class="text-center">
-                            <input type="submit" value="Enviar" class="btn btn-info btn-block rounded-0 py-2">
+            <section>
+                <form action="contacto.php" method="post">
+
+                    <div class="form-group">
+                        <div class="row">
+                            <div class="col-sm-12 col-xs-12 col-md-6">
+                                <input type="text" class="form-control" placeholder="Nombres">
+                            </div>
+                            <div class="col-sm-12 col-xs-12 col-md-6">
+                                <input type="text" class="form-control" placeholder="Apellidos">
+                            </div>
                         </div>
                     </div>
 
-                </div>
-            </form>
+                    <div class="form-group">
+                        <div class="row">
+                            <div class="col-sm-12 col-xs-12 col-md-6">
+                                <input type="text" class="form-control" placeholder="Correo Electrónico">
+                            </div>
+                            <div class="col-sm-12 col-xs-12 col-md-6">
+                                <input type="text" class="form-control" placeholder="Numero de teléfono">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <div class="row">
+                            <div class="col-sm-12 col-xs-12 col-md-12">
+                                <input type="text" name="interesado" class="form-control"
+                                       placeholder="Estoy interesad@ en....">
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <div class="row">
+
+                            <div class="col">
+                                    <textarea name="comentarios" id="comentarios" rows="5"
+                                              class="form-control" placeholder="Comentarios"></textarea>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <div class="row">
+                            <div class="col">
+
+                                <button class="btn btn-secondary btn-lg btn-block" type="submit">Enviar</button>
+
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </section>
+
+
         </section>
     </div>
 <?php include "include/footer.php"; ?>
