@@ -1,7 +1,7 @@
 <?php include "include/header.php"; ?>
 
 
-    <div class="carousel slide" data-ride="carousel">
+    <div class="carousel slide container" data-ride="carousel">
         <div class="carousel-inner" id="mainSlider">
             <div class="carousel-item active">
                 <img class="d-block w-100" src="img/slide_1080p.jpg" alt="First slide">
@@ -11,6 +11,11 @@
 
     <section>
         <div class="container">
+
+            <section>
+                <h1 class="text-center">Nuestros tratamientos</h1>
+            </section>
+
             <div class="row">
                 <div class="col-md-4">
                     <a href="#">
@@ -18,7 +23,8 @@
                             <img class="card-img-top" src="img/consulta_en_linea.jpg" alt="Card image cap">
                             <div class="card-body">
                                 <h5 class="card-title">Consulta en vivo</h5>
-                                <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk
                                     of
                                     the card's content.</p>
                             </div>
@@ -31,7 +37,8 @@
                             <img class="card-img-top" src="img/doctor-chart.jpg" alt="Card image cap">
                             <div class="card-body">
                                 <h5 class="card-title">Envia tu formulario de historia clinica en linea</h5>
-                                <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk
                                     of
                                     the card's content.</p>
                             </div>
@@ -44,7 +51,8 @@
                             <img class="card-img-top" src="img/consulta_gratis.jpg" alt="Card image cap">
                             <div class="card-body">
                                 <h5 class="card-title">Evaluacion gratuita</h5>
-                                <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk
                                     of
                                     the card's content.</p>
                             </div>
@@ -60,7 +68,8 @@
         <div class="container everyOther">
             <div class="card">
                 <div class="card-body">
-                    <p class="lead justify"><span class="negrita">Stemprocell™</span> ofrece los beneficios de la biociencia
+                    <p class="lead justify"><span class="negrita">Stemprocell™</span> ofrece los beneficios de la
+                        biociencia
                         médica a los pacientes que han sido diagnosticados con enfermedades crónicas degenerativas.
                         Proporciona una terapia viable y eficaz mejorando la capacidad natural del cuerpo para su
                         regeneración. También proporciona una excelente fuente de rejuvenecimiento de los tejidos y
@@ -72,7 +81,6 @@
             </div>
         </div>
     </section>
-
 
 
     <section>

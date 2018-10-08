@@ -7,18 +7,44 @@ footer {
     height: 250px;
     /*bottom: 0;*/
     width: 100%;
+    background: #66518E;
+    color: white;
 }
 
 h6 {
     font-weight: bold;
 }
 
-#navStempro {
-    padding: 25px;
+li.active{
+    background:  url("../img/menu-activo.png") no-repeat;
+    background-size: 100% 100%;
 }
 
+li.active>a{
+    color: white !important;
+}
+
+a.nav-link.dropdown-toggle::after{
+    display: none;
+}
+
+#mainNav>ul>li{
+    /*width: 120px !important;*/
+    text-align: right;
+    min-width: 100px;
+}
+
+#mainNav>ul>li>a{
+    text-align: right;
+    font-size: 0.83rem;
+}
+
+/*#navStempro {*/
+    /*padding: 25px;*/
+/*}*/
+
 #mainSlider {
-    max-height: 500px;
+    /*max-height: 500px;*/
 }
 
 #headerContacto {
@@ -59,6 +85,9 @@ h6 {
     position: absolute;
 }
 
+.fa{
+    color: #66518E;
+}
 
 .section-header {
     background-position: center;
@@ -73,12 +102,12 @@ h6 {
 }
 
 /*move branding*/
-.navbar-brand {
-    transform: translateX(-50%);
-    left: 10%;
-    bottom: 5%;
-    position: absolute;
-}
+/*.navbar-brand {*/
+    /*transform: translateX(-50%);*/
+    /*left: 10%;*/
+    /*bottom: 5%;*/
+    /*position: absolute;*/
+/*}*/
 
 .navbar-brand img {
     width: 300px;

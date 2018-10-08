@@ -35,8 +35,10 @@
                     <div class="form-group">
                         <div class="row">
                             <div class="col-sm-12 col-xs-12 col-md-12">
-                                <input type="text" name="interesado" class="form-control"
-                                       placeholder="Estoy interesad@ en....">
+
+
+                                <textarea name="interesado" id="interesado" rows="5"
+                                          class="form-control" placeholder="Estoy interesad@ en...."></textarea>
                             </div>
 
                         </div>

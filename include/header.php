@@ -20,7 +20,7 @@
 <div class="container" id="header">
     <div class="col-md-12 d-flex flex-row-reverse text-right" id="socialIcons">
         <ul class="navbar-nav flex-row" >
-            <li class="nav-item"><a class="nav-link px-2" href="#"><span class="fa fa-phone"> 809-555-6666</span></a></li>
+            <li class="nav-item"><a class="nav-link px-2" href="#"><span class="fa fa-whatsapp"> 809-555-6666</span></a></li>
             <li class="nav-item"><a class="nav-link px-2" href="#"><span class="fa fa-facebook"></span></a></li>
             <li class="nav-item"><a class="nav-link px-2" href="#"><span class="fa fa-twitter"></span></a></li>
             <li class="nav-item"><a class="nav-link px-2" href="#"><span class="fa fa-youtube"></span></a></li>
@@ -71,7 +71,7 @@
                 <li class="nav-item <?php if ($pageName === 'faq.php') {
                     echo ' active';
                 } ?>">
-                    <a class="nav-link" href="faq.php">Preguntas frecuentes</a>
+                    <a class="nav-link" href="faq.php">Preguntas</a>
                 </li>
                 <li class="nav-item <?php if ($pageName === 'testimonios.php') {
                     echo ' active';
