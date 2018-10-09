@@ -12,9 +12,10 @@
     <section>
         <div class="container">
 
-            <section>
+
                 <h1 class="text-center">Nuestros tratamientos</h1>
-            </section>
+            <br>
+
 
             <div class="row">
                 <div class="col-md-4">

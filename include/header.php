@@ -18,9 +18,10 @@
 <body>
 <?php $pageName = basename($_SERVER['PHP_SELF']); ?>
 <div class="container" id="header">
-    <div class="col-md-12 d-flex flex-row-reverse text-right" id="socialIcons">
-        <ul class="navbar-nav flex-row" >
-            <li class="nav-item"><a class="nav-link px-2" href="#"><span class="fa fa-whatsapp"> 809-555-6666</span></a></li>
+    <div class="col-lg-12 d-flex flex-row-reverse text-right" id="socialIcons">
+        <ul class="navbar-nav flex-row">
+            <li class="nav-item"><a class="nav-link px-2" href="#"><span class="fa fa-whatsapp"> 809-555-6666</span></a>
+            </li>
             <li class="nav-item"><a class="nav-link px-2" href="#"><span class="fa fa-facebook"></span></a></li>
             <li class="nav-item"><a class="nav-link px-2" href="#"><span class="fa fa-twitter"></span></a></li>
             <li class="nav-item"><a class="nav-link px-2" href="#"><span class="fa fa-youtube"></span></a></li>
@@ -54,7 +55,9 @@
                     <a class="nav-link" href="nosotros.php">Nosotros</a>
                 </li>
                 <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle <?php if (strpos($pageName, 'trata') !== false) {echo ' active';} ?>" href="#" id="terapias" role="button" data-toggle="dropdown"
+                    <a class="nav-link dropdown-toggle <?php if (strpos($pageName, 'trata') !== false) {
+                        echo ' active';
+                    } ?>" href="#" id="terapias" role="button" data-toggle="dropdown"
                        aria-haspopup="true" aria-expanded="false">
                         Tratamientos
                     </a>
@@ -62,7 +65,9 @@
                         <a class="dropdown-item <?php if ($pageName === 'tratamientos_clinicos.php') {
                             echo ' active';
                         } ?>" href="tratamientos_clinicos.php">Uso Clinico</a>
-                        <a class="dropdown-item <?php if ($pageName === 'tratamientos_cosmeticos.php') {echo ' active';} ?>" href="tratamientos_cosmeticos.php">Uso Cosmetico</a>
+                        <a class="dropdown-item <?php if ($pageName === 'tratamientos_cosmeticos.php') {
+                            echo ' active';
+                        } ?>" href="tratamientos_cosmeticos.php">Uso Cosmetico</a>
                         <a class="dropdown-item <?php if ($pageName === 'tratamientos_ort_trm.php') {
                             echo ' active';
                         } ?>" href="tratamientos_ort_trm.php">Uso en Ortopedia y Traumatologia</a>
@@ -88,8 +93,12 @@
                         Instalaciones
                     </a>
                     <div class="dropdown-menu" aria-labelledby="instalaciones">
-                        <a class="dropdown-item <?php if ($pageName === 'instalaciones_usa.php') {echo ' active';} ?>" href="instalaciones_usa.php">Estados Unidos</a>
-                        <a class="dropdown-item <?php if ($pageName === 'instalaciones_rd.php') {echo ' active';} ?>" href="instalaciones_rd.php">Republica Dominicana</a>
+                        <a class="dropdown-item <?php if ($pageName === 'instalaciones_usa.php') {
+                            echo ' active';
+                        } ?>" href="instalaciones_usa.php">Estados Unidos</a>
+                        <a class="dropdown-item <?php if ($pageName === 'instalaciones_rd.php') {
+                            echo ' active';
+                        } ?>" href="instalaciones_rd.php">Republica Dominicana</a>
                     </div>
                 </li>
 

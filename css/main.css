@@ -11,6 +11,10 @@ footer {
     color: white;
 }
 
+h1 {
+    color: #66518E;
+}
+
 h6 {
     font-weight: bold;
 }
@@ -39,9 +43,13 @@ a.nav-link.dropdown-toggle::after{
     font-size: 0.83rem;
 }
 
-/*#navStempro {*/
+#navStempro {
     /*padding: 25px;*/
-/*}*/
+    margin-top: -40px;
+    /*z-index: -1;*/
+    /*position:relative;*/
+    margin-bottom: 10px;
+}
 
 #mainSlider {
     /*max-height: 500px;*/
@@ -53,7 +61,10 @@ a.nav-link.dropdown-toggle::after{
 
 #header {
     padding-top: 1em;
-    padding-bottom: 1em;
+    /*padding-bottom: 1em;*/
+
+    /*margin-bottom: -40px;*/
+
 }
 
 #trat-clinicos-header {
@@ -71,6 +82,9 @@ a.nav-link.dropdown-toggle::after{
 
 #socialIcons{
     padding: 0px;
+    z-index: 1;
+    position:relative;
+
 }
 
 #footerBranding>div>img{
@@ -87,6 +101,7 @@ a.nav-link.dropdown-toggle::after{
 
 .fa{
     color: #66518E;
+    font-size: 1.1em;
 }
 
 .section-header {
