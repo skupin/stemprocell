@@ -18,7 +18,7 @@
 <body>
 <?php $pageName = basename($_SERVER['PHP_SELF']); ?>
 <div class="container" id="header">
-    <div class="col-lg-12 d-flex flex-row-reverse text-right" id="socialIcons">
+    <div class="col-sm-12 d-flex flex-row-reverse text-right" id="socialIcons">
         <ul class="navbar-nav flex-row">
             <li class="nav-item"><a class="nav-link px-2" href="#"><span class="fa fa-whatsapp"> 809-555-6666</span></a>
             </li>

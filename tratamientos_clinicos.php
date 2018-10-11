@@ -12,8 +12,6 @@
 
 
 <div class="container">
-
-
     <div id="accordion">
         <div class="card">
             <div class="card-header" id="clinicosOne">

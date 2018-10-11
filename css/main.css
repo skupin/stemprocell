@@ -168,3 +168,8 @@ a.nav-link.dropdown-toggle::after{
 .tab-tittle {
     text-align: center;
 }
+
+#accordion .card .card-header h5 {
+    text-align: left;
+    background-color: white;
+}
