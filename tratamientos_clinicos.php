@@ -15,7 +15,7 @@
     <div id="accordion">
         <div class="card">
             <div class="card-header" id="clinicosOne">
-                <span class="fas fa-angle-right"></span>
+                <span class="fa fa-angle-right"></span>
                 <h5 class="mb-0">
                     <button class="btn btn-link" data-toggle="collapse" data-target="#clinicosCollapseOne"
                             aria-expanded="false" aria-controls="clinicosCollapseOne">
