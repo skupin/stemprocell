@@ -173,3 +173,7 @@ a.nav-link.dropdown-toggle::after{
     text-align: left;
     background-color: white;
 }
+
+#accordion .card .card-header {
+    background-color: white;
+}
