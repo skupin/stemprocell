@@ -188,6 +188,6 @@ a.nav-link.dropdown-toggle::after{
 }
 
 .fa-angle-right:hover {
-    transition: acordion-open .8s ease-in;
+    animation: acordion-open .8s ease-in;
 
 }
