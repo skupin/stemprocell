@@ -177,3 +177,17 @@ a.nav-link.dropdown-toggle::after{
 #accordion .card .card-header {
     background-color: white;
 }
+
+@keyframes acordion-open {
+    from{
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(90deg);
+          }
+}
+
+.fa-angle-right {
+    transition: acordion-open .8s ease-in;
+
+}
