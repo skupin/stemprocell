@@ -18,8 +18,11 @@
 <body>
 <?php $pageName = basename($_SERVER['PHP_SELF']); ?>
 <div class="container" id="header">
-    <div class="col-sm-12 d-flex flex-row-reverse text-right" id="socialIcons">
-        <ul class="navbar-nav flex-row">
+    <div class="clearfix d-block d-lg-none">
+        <br>
+    </div>
+    <div class="col-sm-12 d-flex flex-row-reverse text-right " id="socialIcons">
+        <ul class="navbar-nav flex-row d-none d-lg-flex">
             <li class="nav-item"><a class="nav-link px-2" href="#"><span class="fa fa-whatsapp"> 809-555-6666</span></a>
             </li>
             <li class="nav-item"><a class="nav-link px-2" href="#"><span class="fa fa-facebook"></span></a></li>
