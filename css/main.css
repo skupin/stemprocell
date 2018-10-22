@@ -171,27 +171,57 @@ a.nav-link.dropdown-toggle::after{
 
 #accordion .card .card-header h5 {
     text-align: left;
-    background-color: white;
+    /*background-color: white;*/
 }
 
-#accordion .card .card-header {
-    background-color: white;
+/*#accordion .card .card-header {*/
+    /*background-color: white;*/
+/*}*/
+
+#accordion .card {
+    border: 1px solid #66518E;
+    border-radius: 1em;
+    margin: 1em;
 }
 
-@keyframes acordion-open {
-    from{
-        transform: rotate(0deg);
-    }
-    to {
-        transform: rotate(90deg);
-          }
+#accordion .card:hover {
+    background-color: #66518E;
 }
 
-.fa-angle-right:hover {
+#accordion .card:hover > .card-header{
+    color: white;
+}
+
+#accordion{
+    font-family: 'Roboto', Arial, sans-serif;
+}
+
+/*@keyframes acordion-open {*/
+    /*from{*/
+        /*transform: rotate(0deg);*/
+    /*}*/
+    /*to {*/
+        /*transform: rotate(90deg);*/
+          /*}*/
+/*}*/
+
+fa .fa-angle-right:hover {
     animation: acordion-open .8s ease-in;
 
 }
 
-#accordion .card .card-header:hover {
+#accordion .card .card-header h5 h2 span:hover {
     animation: acordion-open .8s ease-in;
 }
+
+/*.card-header .mb-0 .btn-link:after {*/
+    /*!* symbol for "opening" panels *!*/
+    /*!* essential for enabling glyphicon *!*/
+    /*content: "-";    !* adjust as needed, taken from bootstrap.css *!*/
+    /*!*float: right;        !* adjust as needed *!*!*/
+    /*!*color: grey;         !* adjust as needed *!*!*/
+/*}*/
+/*.card-header .mb-0 .btn-link.collapsed:after {*/
+    /*!* symbol for "collapsed" panels *!*/
+    /*content: "+";    !* adjust as needed, taken from bootstrap.css *!*/
+/*}*/

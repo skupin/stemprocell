@@ -19,7 +19,7 @@
                 <h5 class="mb-0">
                     <button class="btn btn-link" data-toggle="collapse" data-target="#clinicosCollapseOne"
                             aria-expanded="false" aria-controls="clinicosCollapseOne">
-                        <h2><span class="fa fa-angle-right"></span>Alzheimer</h2>
+                        <h2>Alzheimer</h2>
                     </button>
                 </h5>
             </div>
