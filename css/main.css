@@ -5,19 +5,12 @@
 
 /* CSS Method for adding Font Awesome Chevron Icons */
 .acc-link:after {
-    /* symbol for "opening" panels */
     font-family:'FontAwesome';
-    /*content:"\f146";*/
     content:"\f0fe";
     float: left;
     color: inherit;
     padding-right: 5px ;
 }
-/*.acc-link.collapsed .acc-link:after {*/
-    /*!* symbol for "collapsed" panels *!*/
-    /*content:"\f0fe";*/
-    /*!*content:"\f146";*!*/
-/*}*/
 
 button[aria-expanded="true"]:after {
     content:"\f146";
@@ -30,6 +23,10 @@ button[aria-expanded="true"]:after {
     padding: 0px;
 }
 
+
+.card-body {
+    padding: 0.8em;
+}
 
 
 section {
@@ -57,27 +54,9 @@ li.active {
     border-bottom: #66518E 2px solid;
 }
 
-/*li.active > a {*/
-    /*color: white !important;*/
-/*}*/
-
-
-/*#mainNav > ul > li {*/
-    /*!*width: 120px !important;*!*/
-    /*text-align: right;*/
-    /*min-width: 100px;*/
-/*}*/
-
-/*#mainNav > ul > li > a {*/
-    /*text-align: right;*/
-    /*font-size: 0.83rem;*/
-/*}*/
 
 #navStempro {
-    /*padding: 25px;*/
     margin-top: -40px;
-    /*z-index: -1;*/
-    /*position:relative;*/
     margin-bottom: 10px;
 }
 
@@ -91,9 +70,6 @@ li.active {
 
 #header {
     padding-top: 1em;
-    /*padding-bottom: 1em;*/
-
-    /*margin-bottom: -40px;*/
 
 }
 
@@ -120,7 +96,7 @@ li.active {
     width: 75px;
 }
 
-/*align the navbar to the right*/
+
 #navBarItems {
     right: 0;
     bottom: 5%;
@@ -170,13 +146,6 @@ li.active {
     padding-top: 1em;
 }
 
-.faq .card {
-    padding: 1em;
-}
-
-.faq .card .card-text {
-    padding: 1em;
-}
 
 .regPadding {
     padding: 1em;
@@ -228,24 +197,5 @@ li.active {
 }
 
 #accordion .card {
-    padding-bottom: 1em;
+    padding: 0.8em;
 }
-
-
-/*fa .fa-angle-right:hover {*/
-    /*animation: acordion-open .8s ease-in;*/
-
-/*}*/
-
-/*#accordion .card .card-header h5 h2 span:hover {*/
-    /*animation: acordion-open .8s ease-in;*/
-/*}*/
-
-
-/*.bs-example{*/
-    /*margin: 20px;*/
-/*}*/
-/*.panel-title .glyphicon{*/
-    /*font-size: 14px;*/
-    /*color: red;*/
-/*}*/
