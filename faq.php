@@ -1,5 +1,21 @@
 <?php include "include/header.php"; ?>
 <div class="container">
+
+
+    <div id="accordion">
+        <div class="card">
+            <div class="card-header" id="faq-one">
+                <h5 class="mb-0">
+                    <button class="btn btn-lg btn-block acc-link" data-toggle></button>
+                </h5>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
     <section>
         <div class="row">
             <h1 class="text-center">Preguntas frecuentes</h1>

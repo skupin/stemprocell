@@ -10,175 +10,170 @@
     </div>
 </div>
 
-
 <div class="container">
     <div id="accordion">
         <div class="card">
             <div class="card-header" id="clinicosOne">
-
                 <h5 class="mb-0">
-                    <button class="btn btn-link" data-toggle="collapse" data-target="#clinicosCollapseOne"
+                    <button class="btn btn-lg btn-block acc-link" data-toggle="collapse"
+                            data-target="#clinicosCollapseOne"
                             aria-expanded="false" aria-controls="clinicosCollapseOne">
-                        <h2>Alzheimer</h2>
+                        Alzheimer
                     </button>
                 </h5>
             </div>
             <div id="clinicosCollapseOne" class="collapse" aria-labelledby="clinicosOne" data-parent="#accordion">
                 <div class="card-body">
-                    <section>
-                        <div class="row">
-                            <div class="col-sm-12">
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <h4>¿Qué es la enfermedad de Alzheimer?</h4>
+
+                            <p>Alzheimer es una enfermedad neurológica progresiva que causa daño irreversible a las
+                                neuronas e
+                                interfiere con la transferencia de información entre ellas, produciendo la pérdida
+                                de
+                                habilidades intelectuales, como capacidad de memorizar y razonar, que empeora hasta
+                                impedir al
+                                individuo un funcionamiento normal en su vida cotidiana, su ambiente social y su
+                                trabajo.</p>
+
+                            <p>En un cerebro sano, hay más de 100 mil millones de células nerviosas conectadas a las
+                                extensiones
+                                que las intercomunican. Con la aparición de la enfermedad de Alzheimer, la
+                                transferencia de
+                                información y número de neuronas disminuyen significativamente. Esto da lugar a los
+                                siguientes
+                                síntomas característicos de la enfermedad de Alzheimer:</p>
 
 
-                                <h4>¿Qué es la enfermedad de Alzheimer?</h4>
-
-                                <p>Alzheimer es una enfermedad neurológica progresiva que causa daño irreversible a las
-                                    neuronas e
-                                    interfiere con la transferencia de información entre ellas, produciendo la pérdida
-                                    de
-                                    habilidades intelectuales, como capacidad de memorizar y razonar, que empeora hasta
-                                    impedir al
-                                    individuo un funcionamiento normal en su vida cotidiana, su ambiente social y su
-                                    trabajo.</p>
-
-                                <p>En un cerebro sano, hay más de 100 mil millones de células nerviosas conectadas a las
-                                    extensiones
-                                    que las intercomunican. Con la aparición de la enfermedad de Alzheimer, la
-                                    transferencia de
-                                    información y número de neuronas disminuyen significativamente. Esto da lugar a los
-                                    siguientes
-                                    síntomas característicos de la enfermedad de Alzheimer:</p>
+                            <section>
+                                <div class="container">
+                                    <ul class="list-group list-group-flush">
+                                        <li class="list-group-item">Pérdida de la memoria</li>
+                                        <li class="list-group-item">Dificultad para completar las tareas normales
+                                        </li>
+                                        <li class="list-group-item">Dificultad con la interpretación de la
+                                            información visual
+                                        </li>
+                                        <li class="list-group-item">La incapacidad para hablar y/o escribir</li>
+                                        <li class="list-group-item">Cambio en el estado de ánimo</li>
+                                        <li class="list-group-item">Trastorno de conducta</li>
+                                    </ul>
+                                </div>
+                            </section>
 
 
-                                <section>
-                                    <div class="container">
-                                        <ul class="list-group list-group-flush">
-                                            <li class="list-group-item">Pérdida de la memoria</li>
-                                            <li class="list-group-item">Dificultad para completar las tareas normales
-                                            </li>
-                                            <li class="list-group-item">Dificultad con la interpretación de la
-                                                información visual
-                                            </li>
-                                            <li class="list-group-item">La incapacidad para hablar y/o escribir</li>
-                                            <li class="list-group-item">Cambio en el estado de ánimo</li>
-                                            <li class="list-group-item">Trastorno de conducta</li>
-                                        </ul>
+                            <p>Cada 70 segundos, alguien en América desarrolla la enfermedad de Alzheimer. Aunque la
+                                causa es
+                                todavía desconocida, la mayoría de los expertos coinciden en que no es causado por
+                                un solo
+                                factor. Sin embargo, un factor común es la edad avanzada. Se estima que una de cada
+                                ocho
+                                personas mayores de 60 años en América padecen de la enfermedad de Alzheimer y su
+                                incidencia es
+                                aun más alta en Latinoamérica y el Carbe. Mundialmente existen 35.6 millones de
+                                pacientes con
+                                Alzheimer, esta cifra esta supuesta a doblarse para el 2030 y a triplicarse para el
+                                2050.</p>
+
+                            <p>La investigación científica sobre el Alzheimer ya está dando resultados sobre el
+                                impacto de la
+                                enfermedad entre los hispanos/latinos. Según el informe Hechos y Estadísticas sobre
+                                la
+                                Enfermedad de Alzheimer 2010 de la Alzheimer’s Association, el riesgo de desarrollar
+                                el
+                                Alzheimer en los hispanos es 1,5 veces mayor que en los norteamericanos blancos no
+                                hispanos. Los
+                                hispanos son el grupo étnico más creciente en los Estados Unidos. Durante la primera
+                                mitad del
+                                siglo 21 el número de ancianos hispanos que sufren del Alzheimer u otro tipo de
+                                demencia puede
+                                incrementarse hasta seis veces, de menos de 200.000 personas afectadas actualmente
+                                hasta 1,3
+                                millones para el año 2050.</p>
+
+                            <p>Para el año 2050, la expectativa de vida de los latinos sobrepasará la de todos los
+                                otros grupos
+                                étnicos en los Estados Unidos, llegando a los 87 años de edad.</p>
+
+                            <h4>¿Qué sucede con las células del cerebro en la enfermedad de Alzheimer?</h4>
+                            <p>Para cumplir con sus funciones, nuestro cerebro requiere intercomunicación entre las
+                                neuronas.
+                                Cada grupo de éstas controla una función corporal determinada, actuando como
+                                pequeñas fábricas y
+                                realizando cada tarea de manera rutinaria. En un paciente con Alzheimer, esta
+                                coordinación se
+                                interrumpe por un daño progresivo en la comunicación intercelular y la muerte
+                                neuronal.</p>
+
+                            <h4>¿Cómo podrían ayudar las Células Madre en la enfermedad de Alzheimer?</h4>
+                            <p>Las Células Madre son bien conocidas por su capacidad para diferenciarse en múltiples
+                                tipos de
+                                tejidos y órganos, además tienen propiedades inmunomoduladoras. Las Células Madre
+                                adultas son
+                                capaces de desarrollar tejido cerebral sano, en pacientes con la enfermedad de
+                                Alzheimer.</p>
+
+                            <p>Los tratamientos de Células Madre adultas tienen la capacidad para ayudar a la
+                                reconstrucción de
+                                las fibras nerviosas y neuronas dañadas. Esto podría reparar el daño causado en las
+                                etapas
+                                progresivas de la enfermedad de Alzheimer que se traduce en la progresión de
+                                discapacidad
+                                permanente.</p>
+
+                            <h4>¿Cómo se administran las Células Madre para la enfermedad de Alzheimer?</h4>
+                            <p>Como tratamiento potencial para la enfermedad de Alzheimer, hemos encontrado que la
+                                mejor forma
+                                en que las Células Madre pueden ser administradas es:</p>
+
+                            <section>
+                                <div class="container">
+                                    <div class="card regPadding">
+                                        <h6 class="card-header">Vía Intravenosa:</h6>
+                                        <p class="card-text">Las Células Madre se aplican en un suero que es
+                                            administrado al
+                                            paciente en la vena. Antes de hacer esta aplicación, se administra
+                                            manitol para
+                                            abrir la barrera hematoencefálica, permitiendo que las Células Madre
+                                            lleguen al
+                                            cerebro en mayor cantidad.</p>
                                     </div>
-                                </section>
+                                </div>
+                            </section>
+
+                            <h4>¿Deberíamos estar investigando las Células Madre?</h4>
+                            <p>Sí. Científicos de todo el mundo creen que hay suficiente evidencia para sugerir que
+                                las Células
+                                Madre tienen un potencial real como una terapia para la enfermedad de Alzheimer.
+                                Esta evidencia
+                                proviene de una multitud de los primeros estudios clínicos. Ellos creen que ha
+                                llegado el
+                                momento de un esfuerzo concertado e internacional en la investigación de Células en
+                                la
+                                enfermedad de Alzheimer.</p>
+
+                            <h4>¿Son las Células Madre una terapia aprobada por la FDA para la enfermedad de
+                                Alzheimer?</h4>
+                            <p>No. En este momento no hay ninguna aprobación de la FDA en las terapias con Células
+                                Madre para la
+                                enfermedad de Alzheimer. Todas las terapias con Células Madre para la enfermedad de
+                                Alzheimer
+                                son actualmente terapias "experimentales".</p>
+
+                            <p>La FDA (Federal Drugs Administration) regula drogas y equipos médicos, pero no regula
+                                la práctica
+                                medica, por tanto no regula el uso de Células Madre adultas si son homólogas (del
+                                mismo
+                                paciente), son utilizadas el mismo día y si el proceso se realiza con mínima
+                                manipulación. Sin
+                                embargo regula el uso de Células Madre cultivadas, embrionarias y heterólogas (de un
+                                donante
+                                para un receptor).</p>
 
 
-                                <p>Cada 70 segundos, alguien en América desarrolla la enfermedad de Alzheimer. Aunque la
-                                    causa es
-                                    todavía desconocida, la mayoría de los expertos coinciden en que no es causado por
-                                    un solo
-                                    factor. Sin embargo, un factor común es la edad avanzada. Se estima que una de cada
-                                    ocho
-                                    personas mayores de 60 años en América padecen de la enfermedad de Alzheimer y su
-                                    incidencia es
-                                    aun más alta en Latinoamérica y el Carbe. Mundialmente existen 35.6 millones de
-                                    pacientes con
-                                    Alzheimer, esta cifra esta supuesta a doblarse para el 2030 y a triplicarse para el
-                                    2050.</p>
-
-                                <p>La investigación científica sobre el Alzheimer ya está dando resultados sobre el
-                                    impacto de la
-                                    enfermedad entre los hispanos/latinos. Según el informe Hechos y Estadísticas sobre
-                                    la
-                                    Enfermedad de Alzheimer 2010 de la Alzheimer’s Association, el riesgo de desarrollar
-                                    el
-                                    Alzheimer en los hispanos es 1,5 veces mayor que en los norteamericanos blancos no
-                                    hispanos. Los
-                                    hispanos son el grupo étnico más creciente en los Estados Unidos. Durante la primera
-                                    mitad del
-                                    siglo 21 el número de ancianos hispanos que sufren del Alzheimer u otro tipo de
-                                    demencia puede
-                                    incrementarse hasta seis veces, de menos de 200.000 personas afectadas actualmente
-                                    hasta 1,3
-                                    millones para el año 2050.</p>
-
-                                <p>Para el año 2050, la expectativa de vida de los latinos sobrepasará la de todos los
-                                    otros grupos
-                                    étnicos en los Estados Unidos, llegando a los 87 años de edad.</p>
-
-                                <h4>¿Qué sucede con las células del cerebro en la enfermedad de Alzheimer?</h4>
-                                <p>Para cumplir con sus funciones, nuestro cerebro requiere intercomunicación entre las
-                                    neuronas.
-                                    Cada grupo de éstas controla una función corporal determinada, actuando como
-                                    pequeñas fábricas y
-                                    realizando cada tarea de manera rutinaria. En un paciente con Alzheimer, esta
-                                    coordinación se
-                                    interrumpe por un daño progresivo en la comunicación intercelular y la muerte
-                                    neuronal.</p>
-
-                                <h4>¿Cómo podrían ayudar las Células Madre en la enfermedad de Alzheimer?</h4>
-                                <p>Las Células Madre son bien conocidas por su capacidad para diferenciarse en múltiples
-                                    tipos de
-                                    tejidos y órganos, además tienen propiedades inmunomoduladoras. Las Células Madre
-                                    adultas son
-                                    capaces de desarrollar tejido cerebral sano, en pacientes con la enfermedad de
-                                    Alzheimer.</p>
-
-                                <p>Los tratamientos de Células Madre adultas tienen la capacidad para ayudar a la
-                                    reconstrucción de
-                                    las fibras nerviosas y neuronas dañadas. Esto podría reparar el daño causado en las
-                                    etapas
-                                    progresivas de la enfermedad de Alzheimer que se traduce en la progresión de
-                                    discapacidad
-                                    permanente.</p>
-
-                                <h4>¿Cómo se administran las Células Madre para la enfermedad de Alzheimer?</h4>
-                                <p>Como tratamiento potencial para la enfermedad de Alzheimer, hemos encontrado que la
-                                    mejor forma
-                                    en que las Células Madre pueden ser administradas es:</p>
-
-                                <section>
-                                    <div class="container">
-                                        <div class="card regPadding">
-                                            <h6 class="card-header">Vía Intravenosa:</h6>
-                                            <p class="card-text">Las Células Madre se aplican en un suero que es
-                                                administrado al
-                                                paciente en la vena. Antes de hacer esta aplicación, se administra
-                                                manitol para
-                                                abrir la barrera hematoencefálica, permitiendo que las Células Madre
-                                                lleguen al
-                                                cerebro en mayor cantidad.</p>
-                                        </div>
-                                    </div>
-                                </section>
-
-                                <h4>¿Deberíamos estar investigando las Células Madre?</h4>
-                                <p>Sí. Científicos de todo el mundo creen que hay suficiente evidencia para sugerir que
-                                    las Células
-                                    Madre tienen un potencial real como una terapia para la enfermedad de Alzheimer.
-                                    Esta evidencia
-                                    proviene de una multitud de los primeros estudios clínicos. Ellos creen que ha
-                                    llegado el
-                                    momento de un esfuerzo concertado e internacional en la investigación de Células en
-                                    la
-                                    enfermedad de Alzheimer.</p>
-
-                                <h4>¿Son las Células Madre una terapia aprobada por la FDA para la enfermedad de
-                                    Alzheimer?</h4>
-                                <p>No. En este momento no hay ninguna aprobación de la FDA en las terapias con Células
-                                    Madre para la
-                                    enfermedad de Alzheimer. Todas las terapias con Células Madre para la enfermedad de
-                                    Alzheimer
-                                    son actualmente terapias "experimentales".</p>
-
-                                <p>La FDA (Federal Drugs Administration) regula drogas y equipos médicos, pero no regula
-                                    la práctica
-                                    medica, por tanto no regula el uso de Células Madre adultas si son homólogas (del
-                                    mismo
-                                    paciente), son utilizadas el mismo día y si el proceso se realiza con mínima
-                                    manipulación. Sin
-                                    embargo regula el uso de Células Madre cultivadas, embrionarias y heterólogas (de un
-                                    donante
-                                    para un receptor).</p>
-
-
-                            </div>
                         </div>
-                    </section>
+                    </div>
                 </div>
             </div>
         </div>
@@ -186,9 +181,9 @@
         <div class="card">
             <div class="card-header" id="clinicosTwo">
                 <h5 class="mb-0">
-                    <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#clinicosCollapseTwo"
+                    <button class="btn btn-lg btn-block acc-link collapsed" data-toggle="collapse" data-target="#clinicosCollapseTwo"
                             aria-expanded="false" aria-controls="clinicosCollapseTwo">
-                        <h2>Diabetes Mellitus tipo 1 y 2</h2>
+                        Diabetes Mellitus tipo 1 y 2
                     </button>
                 </h5>
             </div>
@@ -411,9 +406,9 @@
         <div class="card">
             <div class="card-header" id="clinicosThree">
                 <h5 class="mb-0">
-                    <button class="btn btn-link" data-toggle="collapse" data-target="#clinicosCollapseThree"
+                    <button class="btn btn-lg btn-block acc-link" data-toggle="collapse" data-target="#clinicosCollapseThree"
                             aria-expanded="false" aria-controls="clinicosCollapseThree">
-                        <h2>Enfermedades Autoinmunes</h2>
+                        Enfermedades Autoinmunes
                     </button>
                 </h5>
             </div>
@@ -851,9 +846,9 @@
         <div class="card">
             <div class="card-header" id="clinicosFour">
                 <h5 class="mb-0">
-                    <button class="btn btn-link" data-toggle="collapse" data-target="#clinicosCollapseFour"
+                    <button class="btn btn-lg btn-block acc-link" data-toggle="collapse" data-target="#clinicosCollapseFour"
                             aria-expanded="false" aria-controls="clinicosCollapseFour">
-                        <h2>Enfermedades Pulmonares Obstructivas Crónicas (EPOC)</h2>
+                        Enfermedades Pulmonares Obstructivas Crónicas (EPOC)
                     </button>
                 </h5>
             </div>
@@ -1168,9 +1163,9 @@
         <div class="card">
             <div class="card-header" id="clinicosFive">
                 <h5 class="mb-0">
-                    <button class="btn btn-link" data-toggle="collapse" data-target="#clinicosCollapseFive"
+                    <button class="btn btn-lg btn-block acc-link" data-toggle="collapse" data-target="#clinicosCollapseFive"
                             aria-expanded="false" aria-controls="clinicosCollapseFive">
-                        <h2>Esclerosis Múltiple</h2>
+                        Esclerosis Múltiple
                     </button>
                 </h5>
             </div>
@@ -1429,9 +1424,9 @@
         <div class="card">
             <div class="card-header" id="clinicosSix">
                 <h5 class="mb-0">
-                    <button class="btn btn-link" data-toggle="collapse" data-target="#clinicosCollapseSix"
+                    <button class="btn btn-lg btn-block acc-link" data-toggle="collapse" data-target="#clinicosCollapseSix"
                             aria-expanded="false" aria-controls="clinicosCollapseSix">
-                        <h2>Osteoartritis</h2>
+                        Osteoartritis
                     </button>
                 </h5>
             </div>
@@ -1565,9 +1560,9 @@
         <div class="card">
             <div class="card-header" id="clinicosSeven">
                 <h5 class="mb-0">
-                    <button class="btn btn-link" data-toggle="collapse" data-target="#clinicosCollapseSeven"
+                    <button class="btn btn-lg btn-block acc-link" data-toggle="collapse" data-target="#clinicosCollapseSeven"
                             aria-expanded="false" aria-controls="clinicosCollapseSeven">
-                        <h2>Parkinson</h2>
+                        Parkinson
                     </button>
                 </h5>
             </div>
@@ -1961,6 +1956,9 @@
 
 
 </div>
+
+<br>
+<br>
 <?php include "include/footer.php"; ?>
 
 

@@ -15,15 +15,15 @@
             <div class="card">
                 <div class="card-header" id="clinicosOne">
                     <h5 class="mb-0">
-                        <button class="btn btn-link" data-toggle="collapse" data-target="#clinicosCollapseOne"
+                        <button class="btn btn-lg btn-block acc-link" data-toggle="collapse" data-target="#clinicosCollapseOne"
                                 aria-expanded="false" aria-controls="clinicosCollapseOne">
-                            <h2>Artritis Reumatoide</h2>
+                            Artritis Reumatoide
                         </button>
                     </h5>
                 </div>
                 <div id="clinicosCollapseOne" class="collapse" aria-labelledby="clinicosOne" data-parent="#accordion">
                     <div class="card-body">
-                        <section>
+
                             <div class="row">
 
                                 <div class="col-sm-12">
@@ -112,7 +112,7 @@
                                 </div>
 
                             </div>
-                        </section>
+
                     </div>
                 </div>
             </div>

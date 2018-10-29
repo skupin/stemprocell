@@ -1,3 +1,37 @@
+.card-header {
+    cursor: pointer;
+}
+
+
+/* CSS Method for adding Font Awesome Chevron Icons */
+.acc-link:after {
+    /* symbol for "opening" panels */
+    font-family:'FontAwesome';
+    /*content:"\f146";*/
+    content:"\f0fe";
+    float: left;
+    color: inherit;
+    padding-right: 5px ;
+}
+/*.acc-link.collapsed .acc-link:after {*/
+    /*!* symbol for "collapsed" panels *!*/
+    /*content:"\f0fe";*/
+    /*!*content:"\f146";*!*/
+/*}*/
+
+button[aria-expanded="true"]:after {
+    content:"\f146";
+}
+
+
+
+
+.card-header {
+    padding: 0px;
+}
+
+
+
 section {
     padding: 2em;
 }
@@ -19,29 +53,25 @@ h6 {
     font-weight: bold;
 }
 
-li.active{
-    background:  url("../img/menu-activo.png") no-repeat;
-    background-size: 100% 100%;
+li.active {
+    border-bottom: #66518E 2px solid;
 }
 
-li.active>a{
-    color: white !important;
-}
+/*li.active > a {*/
+    /*color: white !important;*/
+/*}*/
 
-a.nav-link.dropdown-toggle::after{
-    display: none;
-}
 
-#mainNav>ul>li{
-    /*width: 120px !important;*/
-    text-align: right;
-    min-width: 100px;
-}
+/*#mainNav > ul > li {*/
+    /*!*width: 120px !important;*!*/
+    /*text-align: right;*/
+    /*min-width: 100px;*/
+/*}*/
 
-#mainNav>ul>li>a{
-    text-align: right;
-    font-size: 0.83rem;
-}
+/*#mainNav > ul > li > a {*/
+    /*text-align: right;*/
+    /*font-size: 0.83rem;*/
+/*}*/
 
 #navStempro {
     /*padding: 25px;*/
@@ -79,18 +109,16 @@ a.nav-link.dropdown-toggle::after{
     background-image: url('../img/ortopedia.jpg');
 }
 
-
-#socialIcons{
+#socialIcons {
     padding: 0px;
     z-index: 1;
-    position:relative;
+    position: relative;
 
 }
 
-#footerBranding>div>img{
+#footerBranding > div > img {
     width: 75px;
 }
-
 
 /*align the navbar to the right*/
 #navBarItems {
@@ -99,7 +127,7 @@ a.nav-link.dropdown-toggle::after{
     position: absolute;
 }
 
-.fa{
+.fa {
     color: #66518E;
     font-size: 1.1em;
 }
@@ -111,29 +139,22 @@ a.nav-link.dropdown-toggle::after{
     background-size: cover;
 }
 
-.section-header>div>h1 {
+.section-header > div > h1 {
     color: white;
     text-shadow: 2px 2px #000000;
 }
-
-/*move branding*/
-/*.navbar-brand {*/
-    /*transform: translateX(-50%);*/
-    /*left: 10%;*/
-    /*bottom: 5%;*/
-    /*position: absolute;*/
-/*}*/
 
 .navbar-brand img {
     width: 300px;
 }
 
 .card {
-    border: none;
+    border: none !important;
 }
 
 .card-header {
     text-align: center;
+    border: none;
 
 }
 
@@ -153,7 +174,7 @@ a.nav-link.dropdown-toggle::after{
     padding: 1em;
 }
 
-.faq .card .card-text{
+.faq .card .card-text {
     padding: 1em;
 }
 
@@ -169,59 +190,62 @@ a.nav-link.dropdown-toggle::after{
     text-align: center;
 }
 
-#accordion .card .card-header h5 {
+.card-header {
+    background-color: white;
+}
+
+
+.acc-link {
+    color: #66518E;
+    background-color: white;
     text-align: left;
-    /*background-color: white;*/
+    border: #66518E 1px solid;
+    border-radius: 50px;
 }
 
-/*#accordion .card .card-header {*/
-    /*background-color: white;*/
-/*}*/
-
-#accordion .card {
-    border: 1px solid #66518E;
-    border-radius: 1em;
-    margin: 1em;
-}
-
-#accordion .card:hover {
+.acc-link:hover{
+    color: white;
     background-color: #66518E;
 }
 
-#accordion .card:hover > .card-header{
+.acc-link a{
+    color: #66518E;
+    font-size: 0.8em;
+    float: right;
+}
+
+.acc-link i:hover{
     color: white;
 }
 
-#accordion{
+.fa-plus:hover {
+    color: white;
+
+}
+
+#accordion {
     font-family: 'Roboto', Arial, sans-serif;
 }
 
-/*@keyframes acordion-open {*/
-    /*from{*/
-        /*transform: rotate(0deg);*/
-    /*}*/
-    /*to {*/
-        /*transform: rotate(90deg);*/
-          /*}*/
-/*}*/
-
-fa .fa-angle-right:hover {
-    animation: acordion-open .8s ease-in;
-
+#accordion .card {
+    padding-bottom: 1em;
 }
 
-#accordion .card .card-header h5 h2 span:hover {
-    animation: acordion-open .8s ease-in;
-}
 
-/*.card-header .mb-0 .btn-link:after {*/
-    /*!* symbol for "opening" panels *!*/
-    /*!* essential for enabling glyphicon *!*/
-    /*content: "-";    !* adjust as needed, taken from bootstrap.css *!*/
-    /*!*float: right;        !* adjust as needed *!*!*/
-    /*!*color: grey;         !* adjust as needed *!*!*/
+/*fa .fa-angle-right:hover {*/
+    /*animation: acordion-open .8s ease-in;*/
+
 /*}*/
-/*.card-header .mb-0 .btn-link.collapsed:after {*/
-    /*!* symbol for "collapsed" panels *!*/
-    /*content: "+";    !* adjust as needed, taken from bootstrap.css *!*/
+
+/*#accordion .card .card-header h5 h2 span:hover {*/
+    /*animation: acordion-open .8s ease-in;*/
+/*}*/
+
+
+/*.bs-example{*/
+    /*margin: 20px;*/
+/*}*/
+/*.panel-title .glyphicon{*/
+    /*font-size: 14px;*/
+    /*color: red;*/
 /*}*/
