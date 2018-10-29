@@ -6,7 +6,7 @@
         <div class="card">
             <div class="card-header" id="faq-one">
                 <h5 class="mb-0">
-                    <button class="btn btn-lg btn-block acc-link" data-toggle></button>
+                    <button class="btn btn-lg btn-block acc-link" data-toggle="collapse"></button>
                 </h5>
             </div>
         </div>
