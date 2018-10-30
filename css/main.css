@@ -1,7 +1,13 @@
+
+
+
 .card-header {
     cursor: pointer;
 }
 
+.card-header .mb-0 button{
+    font-size: 0.9em ;
+}
 
 /* CSS Method for adding Font Awesome Chevron Icons */
 .acc-link:after {
@@ -12,11 +18,37 @@
     padding-right: 5px ;
 }
 
+button[aria-expanded="true"]{
+    background-color: #66518E;
+    color: white;
+}
+
 button[aria-expanded="true"]:after {
     content:"\f146";
 }
 
+.acc-link:hover{
+    color: white;
+    background-color: #66518E;
+}
 
+.acc-link {
+    color: #66518E;
+    background-color: white;
+    text-align: left;
+    border: #66518E 1px solid;
+    border-radius: 50px;
+}
+
+.acc-link a{
+    color: #66518E;
+    font-size: 0.8em;
+    float: right;
+}
+
+.acc-link i:hover{
+    color: white;
+}
 
 
 .card-header {
@@ -161,30 +193,6 @@ li.active {
 
 .card-header {
     background-color: white;
-}
-
-
-.acc-link {
-    color: #66518E;
-    background-color: white;
-    text-align: left;
-    border: #66518E 1px solid;
-    border-radius: 50px;
-}
-
-.acc-link:hover{
-    color: white;
-    background-color: #66518E;
-}
-
-.acc-link a{
-    color: #66518E;
-    font-size: 0.8em;
-    float: right;
-}
-
-.acc-link i:hover{
-    color: white;
 }
 
 .fa-plus:hover {

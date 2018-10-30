@@ -334,16 +334,16 @@
                 </div>
 
                 <div class="card">
-                    <div class="card-header" id="faq-eleven">
+                    <div class="card-header" id="faq-twelve">
                         <h5 class="mb-0">
                             <button class="btn btn-lg btn-block acc-link" data-toggle="collapse"
-                                    data-target="#faq-eleven-collapse" aria-expanded="false"
-                                    aria-controls="faq-eleven-collapse">
+                                    data-target="#faq-twelve-collapse" aria-expanded="false"
+                                    aria-controls="faq-twelve-collapse" style="font-size: 0.7em;">
                                 ¿Existe algún suplemento nutricional o medicamento que se deba tomar junto con el tratamiento con Células Madre?
                             </button>
                         </h5>
                     </div>
-                    <div id="faq-eleven-collapse" class="collapse" aria-labelledby="faq-eleven" data-parent="#accordion">
+                    <div id="faq-twelve-collapse" class="collapse" aria-labelledby="faq-twelve" data-parent="#accordion">
                         <div class="card-body">
                             <div class="row">
                                 <div class="col-sm-12">

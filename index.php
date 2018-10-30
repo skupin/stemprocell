@@ -13,7 +13,7 @@
         <div class="container">
 
 
-                <h1 class="text-center">Nuestros tratamientos</h1>
+            <h1 class="text-center">Nuestros tratamientos</h1>
             <br>
 
 
