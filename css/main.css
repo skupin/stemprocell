@@ -1,6 +1,40 @@
 
 
 
+.icon {
+    width: 35px;
+    height: 35px;
+    display: block;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.whatsapp {
+    background-image: url("../img/icons/ico-whatsapp.png");
+}
+
+.facebook {
+    background-image: url("../img/icons/ico-facebook.png");
+}
+
+.twitter {
+    background-image: url("../img/icons/ico-twitter.png");
+}
+
+.youtube {
+    background-image: url("../img/icons/ico-youtube.png");
+}
+
+.instagram {
+    background-image: url("../img/icons/ico-instagram.png");
+}
+
+.youtube {
+    background-image: url("../img/icons/ico-whatsapp.png");
+}
+
+
 .card-header {
     cursor: pointer;
 }

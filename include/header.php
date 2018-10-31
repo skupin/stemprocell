@@ -28,12 +28,17 @@
     </div>
     <div class="col-sm-12 d-flex flex-row-reverse text-right " id="socialIcons">
         <ul class="navbar-nav flex-row d-none d-lg-flex">
-            <li class="nav-item"><a class="nav-link px-2" href="#"><span class="fa fa-whatsapp"> 809-555-6666</span></a>
+            <li class="nav-item"><a class="nav-link px-2 icon whatsapp" href="#"></a></li>
+            <li class="nav-item"><a class="nav-link px-2" href="#"><span class="fa"> 809-555-6666</span></a>
             </li>
-            <li class="nav-item"><a class="nav-link px-2" href="#"><span class="fa fa-facebook"></span></a></li>
-            <li class="nav-item"><a class="nav-link px-2" href="#"><span class="fa fa-twitter"></span></a></li>
-            <li class="nav-item"><a class="nav-link px-2" href="#"><span class="fa fa-youtube"></span></a></li>
-            <li class="nav-item"><a class="nav-link px-2" href="#"><span class="fa fa-instagram"></span></a></li>
+            <li class="nav-item">
+                <a class="nav-link px-2 icon facebook" href="#">
+<!--                    <span class="fa fa-facebook"></span>-->
+                </a>
+            </li>
+            <li class="nav-item"><a class="nav-link px-2 icon twitter" href="#"></a></li>
+            <li class="nav-item"><a class="nav-link px-2 icon youtube" href="#"></a></li>
+            <li class="nav-item"><a class="nav-link px-2 icon instagram" href="#"></a></li>
         </ul>
     </div>
     <nav class="navbar navbar-expand-lg navbar-light bg-light" id="navStempro">
