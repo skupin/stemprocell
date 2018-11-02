@@ -11,6 +11,23 @@
 
     <section>
         <div class="container">
+                    <p style="text-align: justify;"><span class="negrita">Stemprocell™</span> ofrece los beneficios de la
+                        biociencia
+                        médica a los pacientes que han sido diagnosticados con enfermedades crónicas degenerativas.
+                        Proporciona una terapia viable y eficaz mejorando la capacidad natural del cuerpo para su
+                        regeneración. También proporciona una excelente fuente de rejuvenecimiento de los tejidos y
+                        órganos, siendo una de las más utilizadas en los tratamientos de antienvejecimiento. Este
+                        procedimiento innovador, disponible en nuestros centros, se basa en el uso de Células Madre
+                        derivadas de Tejido Adiposo, médula ósea o sangre periférica, este tratamiento es completamente
+                        autólogo, y no produce rechazo, ni efectos secundarios.</p>
+
+
+        </div>
+    </section>
+
+
+    <section>
+        <div class="container">
 
 
             <h1 class="text-center">Nuestros tratamientos</h1>
@@ -59,23 +76,7 @@
     </section>
 
 
-    <section>
-        <div class="container everyOther">
-            <div class="card">
-                <div class="card-body">
-                    <p class="lead justify"><span class="negrita">Stemprocell™</span> ofrece los beneficios de la
-                        biociencia
-                        médica a los pacientes que han sido diagnosticados con enfermedades crónicas degenerativas.
-                        Proporciona una terapia viable y eficaz mejorando la capacidad natural del cuerpo para su
-                        regeneración. También proporciona una excelente fuente de rejuvenecimiento de los tejidos y
-                        órganos, siendo una de las más utilizadas en los tratamientos de antienvejecimiento. Este
-                        procedimiento innovador, disponible en nuestros centros, se basa en el uso de Células Madre
-                        derivadas de Tejido Adiposo, médula ósea o sangre periférica, este tratamiento es completamente
-                        autólogo, y no produce rechazo, ni efectos secundarios.</p>
-                </div>
-            </div>
-        </div>
-    </section>
+
 
 
     <section>
