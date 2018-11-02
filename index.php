@@ -11,7 +11,9 @@
 
     <section>
         <div class="container">
-                    <p style="text-align: justify;"><span class="negrita">Stemprocell™</span> ofrece los beneficios de la
+            <div class="card">
+                <div class="card-body">
+                    <p class="standout-text"><span class="negrita">Stemprocell™</span> ofrece los beneficios de la
                         biociencia
                         médica a los pacientes que han sido diagnosticados con enfermedades crónicas degenerativas.
                         Proporciona una terapia viable y eficaz mejorando la capacidad natural del cuerpo para su
@@ -20,8 +22,8 @@
                         procedimiento innovador, disponible en nuestros centros, se basa en el uso de Células Madre
                         derivadas de Tejido Adiposo, médula ósea o sangre periférica, este tratamiento es completamente
                         autólogo, y no produce rechazo, ni efectos secundarios.</p>
-
-
+                </div>
+            </div>
         </div>
     </section>
 
@@ -136,7 +138,7 @@
             </div>
     </section>
 
-    <section class="everyOther" id="testimonios">
+    <section id="testimonios">
         <div class="container">
             <div class="row">
 

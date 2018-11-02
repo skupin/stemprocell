@@ -1,5 +1,7 @@
 
-
+body {
+    background-image: linear-gradient(to bottom, #ffffff, #fbfbfb, #f7f7f7, #f4f4f4, #f0f0f0);
+}
 
 .icon {
     width: 35px;
@@ -242,6 +244,7 @@ li.active {
     padding: 0.8em;
 }
 
-/*.img-promo-main {*/
-    /*width: 350px;*/
-/*}*/
+.standout-text {
+    text-align: justify;
+    font-size: 1.2em;
+}
