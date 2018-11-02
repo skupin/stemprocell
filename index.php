@@ -19,46 +19,40 @@
 
             <div class="row">
                 <div class="col-md-4">
-                    <a href="#">
+
                         <div class="card">
-                            <img class="card-img-top" src="img/consulta_en_linea.jpg" alt="Card image cap">
+                            <img class="card-img-top img-promo-main" src="img/alzheimer.jpg" alt="Card image cap">
                             <div class="card-body">
-                                <h5 class="card-title">Consulta en vivo</h5>
-                                <p class="card-text">Some quick example text to build on the card title and make up the
-                                    bulk
-                                    of
-                                    the card's content.</p>
+                                <h5 class="card-title">¿Cómo podrían ayudar las Células Madre en la enfermedad de Alzheimer?</h5>
+                                <p class="card-text">Las Células Madre son bien conocidas por su capacidad para diferenciarse en múltiples tipos de tejidos y órganos, además tienen propiedades inmunomoduladoras. Las Células Madre adultas son capaces de desarrollar tejido cerebral sano, en pacientes con la enfermedad de Alzheimer...
+                                    <a href="#">Leer mas</a> </p>
                             </div>
                         </div>
-                    </a>
+
                 </div>
                 <div class="col-md-4">
-                    <a href="#">
+
                         <div class="card">
-                            <img class="card-img-top" src="img/doctor-chart.jpg" alt="Card image cap">
+                            <img class="card-img-top img-promo-main" src="img/diabetes.jpg" alt="Card image cap">
                             <div class="card-body">
-                                <h5 class="card-title">Envia tu formulario de historia clinica en linea</h5>
-                                <p class="card-text">Some quick example text to build on the card title and make up the
-                                    bulk
-                                    of
-                                    the card's content.</p>
+                                <h5 class="card-title">¿Cómo podrían ayudar las Células Madre en la Diabetes?</h5>
+                                <p class="card-text">Se está estudiando la terapia de Células Madre del tejido adiposo y/o Médula Ósea, como nueva alternativa de tratamiento para ayudar a controlar las complicaciones de la Diabetes. Las Células Madre obtenidas de un paciente pueden tener el potencial de reemplazar...
+                                    <a href="#">Leer mas</a> </p>
                             </div>
                         </div>
-                    </a>
+
                 </div>
                 <div class="col-md-4">
-                    <a href="#">
+
                         <div class="card">
-                            <img class="card-img-top" src="img/consulta_gratis.jpg" alt="Card image cap">
+                            <img class="card-img-top img-promo-main" src="img/artritis.jpeg" alt="Card image cap">
                             <div class="card-body">
-                                <h5 class="card-title">Evaluacion gratuita</h5>
-                                <p class="card-text">Some quick example text to build on the card title and make up the
-                                    bulk
-                                    of
-                                    the card's content.</p>
+                                <h5 class="card-title">¿Cómo podrían ayudar las Células Madre en la Artritis Reumatoide?</h5>
+                                <p class="card-text">En la actualidad, la AR se trata con agentes inmunosupresores como los esteroides, el Metotrexate, ciclosporina, oro, y, más recientemente, infliximab (Remicade). A pesar de la inducción de mejora temporal, estos enfoques poseen a largo plazo efectos negativos debidos a la inhibición no específica de la...
+                                    <a href="#">Leer mas</a></p>
                             </div>
                         </div>
-                    </a>
+
                 </div>
             </div>
         </div>

@@ -68,7 +68,7 @@
                     <a class="nav-link" href="nosotros.php">Nosotros</a>
                 </li>
                 <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle <?php if (strpos($pageName, 'trata') !== false) {
+                    <a class="nav-link dropdown-toggle <?php if ($pageName === 'tratamientos_clinicos.php') {
                         echo ' active';
                     } ?>" href="#" id="terapias" role="button" data-toggle="dropdown"
                        aria-haspopup="true" aria-expanded="false">
