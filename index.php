@@ -10,9 +10,9 @@
     </div>
 
     <section>
-        <div class="container">
+        <div class="container ">
             <div class="card">
-                <div class="card-body">
+                <div class="card-body stempro">
                     <p class="standout-text"><span class="negrita">Stemprocell™</span> ofrece los beneficios de la
                         biociencia
                         médica a los pacientes que han sido diagnosticados con enfermedades crónicas degenerativas.

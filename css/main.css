@@ -3,6 +3,13 @@ body {
     background-image: linear-gradient(to bottom, #ffffff, #fbfbfb, #f7f7f7, #f4f4f4, #f0f0f0);
 }
 
+.stempro {
+    padding-left: 25px;
+    padding-right: 25px;
+    border-top: 3px solid #66518E;
+    border-bottom: 3px solid #66518E;
+}
+
 .icon {
     width: 35px;
     height: 35px;
@@ -10,7 +17,6 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
 }
-
 
 .whatsapp {
     background-image: url("../img/icons/ico-whatsapp.png");
@@ -123,9 +129,15 @@ li.active {
 }
 
 
+#navBarItems {
+    padding-right: 1em;
+}
+
 #navStempro {
     margin-top: -40px;
     margin-bottom: 10px;
+    margin-right: -10px;
+
 }
 
 #mainSlider {
@@ -138,7 +150,6 @@ li.active {
 
 #header {
     padding-top: 1em;
-
 }
 
 #trat-clinicos-header {
@@ -154,11 +165,13 @@ li.active {
 }
 
 #socialIcons {
-    padding: 0px;
+    padding-right: 1em;
     z-index: 1;
     position: relative;
-
+    background-color: transparent;
 }
+
+
 
 #footerBranding > div > img {
     width: 75px;
@@ -189,7 +202,7 @@ li.active {
 }
 
 .navbar-brand img {
-    width: 300px;
+    width: 250px;
 }
 
 .card {
