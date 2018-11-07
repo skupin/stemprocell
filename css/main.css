@@ -54,7 +54,9 @@ body {
 /* CSS Method for adding Font Awesome Chevron Icons */
 .acc-link:after {
     font-family:'FontAwesome';
-    content:"\f0fe";
+    font-size: 1.1em;
+    font-weight: bold;
+    content:"\f105";
     float: left;
     color: inherit;
     padding-right: 5px ;
@@ -66,7 +68,7 @@ button[aria-expanded="true"]{
 }
 
 button[aria-expanded="true"]:after {
-    content:"\f146";
+    content:"\f107";
 }
 
 .acc-link:hover{
@@ -150,7 +152,8 @@ li.active {
 }
 
 #header {
-    padding-top: 1em;
+    /*padding-top: 1em;*/
+    background-color: white;
 }
 
 #trat-clinicos-header {
@@ -166,10 +169,15 @@ li.active {
 }
 
 #socialIcons {
-    padding-right: 1em;
+    /*padding-right: 1em;*/
     z-index: 1;
     position: relative;
     background-color: transparent;
+}
+
+#socialIcons ul li{
+    /*padding-right: 1em;*/
+    padding-top: 1em;
 }
 
 
@@ -183,6 +191,19 @@ li.active {
     right: 0;
     bottom: 5%;
     position: absolute;
+}
+
+#navBarItems li{
+    /*-ms-transition:width 1s ease-in;*/
+    /*-webkit-transition:width 1s ease-in;*/
+    transition: width 2s;
+}
+
+#navBarItems li:hover{
+    /*-ms-transition:all .5s ease-in;*/
+    /*-webkit-transition:all .5s ease-in;*/
+    /*transition:all .5s ease-in;*/
+    border-bottom: #66518E 2px solid;
 }
 
 .fa {

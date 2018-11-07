@@ -22,7 +22,7 @@
 </head>
 <body>
 <?php $pageName = basename($_SERVER['PHP_SELF']); ?>
-<div class="container" id="header">
+<div class="container sticky-top" id="header">
     <div class="clearfix d-block d-lg-none">
         <br>
     </div>
