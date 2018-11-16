@@ -93,7 +93,7 @@
 
 
                             <button type="button" class="btn-block btn-primary video-btn youtube-modal" data-toggle="modal" data-src="https://www.youtube.com/embed/NlhgHVZ5x5c" data-target="#myModal">
-                                <img class="embed-responsive embed-responsive-16by9" src="http://img.youtube.com/vi/NlhgHVZ5x5c/hqdefault.jpg" />
+                                <img class="embed-responsive embed-responsive-16by9" src="https://img.youtube.com/vi/NlhgHVZ5x5c/hqdefault.jpg" />
                             </button>
 
 
@@ -111,7 +111,7 @@
                         <div class="card-body">
 
                             <button type="button" class="btn-block btn-primary video-btn youtube-modal" data-toggle="modal" data-src="https://www.youtube.com/embed/K4_bqrWRKbs" data-target="#myModal">
-                                <img class="embed-responsive embed-responsive-16by9" src="http://img.youtube.com/vi/K4_bqrWRKbs/hqdefault.jpg" />
+                                <img class="embed-responsive embed-responsive-16by9" src="https://img.youtube.com/vi/K4_bqrWRKbs/hqdefault.jpg" />
                             </button>
 
 
@@ -132,7 +132,7 @@
 
 
                             <button type="button" class="btn-block btn-primary video-btn youtube-modal" data-toggle="modal" data-src="https://www.youtube.com/embed/d9d0t8BNILQ" data-target="#myModal">
-                                <img class="embed-responsive embed-responsive-16by9" src="http://img.youtube.com/vi/d9d0t8BNILQ/hqdefault.jpg" />
+                                <img class="embed-responsive embed-responsive-16by9" src="https://img.youtube.com/vi/d9d0t8BNILQ/hqdefault.jpg" />
                             </button>
 
 
