@@ -1,3 +1,41 @@
+.card-header{
+    margin-top: 1em;
+}
+
+.modal-dialog {
+    max-width: 800px;
+    margin: 100px auto;
+}
+
+
+
+.modal-body {
+    position:relative;
+    padding:0px;
+}
+.close {
+    position:absolute;
+    right:-30px;
+    top:0;
+    z-index:999;
+    font-size:2rem;
+    font-weight: normal;
+    color:#fff;
+    opacity:1;
+}
+
+
+.youtube-modal {
+    background-color: transparent;
+    border-color: transparent;
+}
+
+.youtube-modal:hover {
+    background-color: transparent;
+    border-color: transparent;
+}
+
+
 
 body {
     background-image: linear-gradient(to bottom, #ffffff, #fbfbfb, #f7f7f7, #f4f4f4, #f0f0f0);
@@ -37,11 +75,6 @@ body {
 .instagram {
     background-image: url("../img/icons/ico-instagram.png");
 }
-
-.youtube {
-    background-image: url("../img/icons/ico-whatsapp.png");
-}
-
 
 .card-header {
     cursor: pointer;

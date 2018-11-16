@@ -78,80 +78,28 @@
     </section>
 
 
-
-
-
-    <section>
-        <div class="container">
-            <div class="card-deck mb-3 text-center">
-                <div class="card mb-4 box-shadow">
-                    <div class="card-header">
-                        <h4 class="my-0 font-weight-normal">Free</h4>
-                    </div>
-                    <div class="card-body">
-                        <h1 class="card-title pricing-card-title">$0
-                            <small class="text-muted">/ mo</small>
-                        </h1>
-                        <ul class="list-unstyled mt-3 mb-4">
-                            <li>10 users included</li>
-                            <li>2 GB of storage</li>
-                            <li>Email support</li>
-                            <li>Help center access</li>
-                        </ul>
-                        <button type="button" class="btn btn-lg btn-block btn-outline-primary">Sign up for free</button>
-                    </div>
-                </div>
-                <div class="card mb-4 box-shadow">
-                    <div class="card-header">
-                        <h4 class="my-0 font-weight-normal">Pro</h4>
-                    </div>
-                    <div class="card-body">
-                        <h1 class="card-title pricing-card-title">$15
-                            <small class="text-muted">/ mo</small>
-                        </h1>
-                        <ul class="list-unstyled mt-3 mb-4">
-                            <li>20 users included</li>
-                            <li>10 GB of storage</li>
-                            <li>Priority email support</li>
-                            <li>Help center access</li>
-                        </ul>
-                        <button type="button" class="btn btn-lg btn-block btn-primary">Get started</button>
-                    </div>
-                </div>
-                <div class="card mb-4 box-shadow">
-                    <div class="card-header">
-                        <h4 class="my-0 font-weight-normal">Enterprise</h4>
-                    </div>
-                    <div class="card-body">
-                        <h1 class="card-title pricing-card-title">$29
-                            <small class="text-muted">/ mo</small>
-                        </h1>
-                        <ul class="list-unstyled mt-3 mb-4">
-                            <li>30 users included</li>
-                            <li>15 GB of storage</li>
-                            <li>Phone and email support</li>
-                            <li>Help center access</li>
-                        </ul>
-                        <button type="button" class="btn btn-lg btn-block btn-primary">Contact us</button>
-                    </div>
-                </div>
-            </div>
-    </section>
-
     <section id="testimonios">
         <div class="container">
+            <h1 class="text-center">Testimonios</h1>
+            <br>
             <div class="row">
 
+
+
                 <div class="col-md-4">
                     <div class="card">
-                        <h5 class="card-header">Testimonio 1</h5>
+                        <h5 class="card-header">Jailene Cintron</h5>
                         <div class="card-body">
-                            <div class="embed-responsive embed-responsive-16by9">
-                                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/NlhgHVZ5x5c"
-                                        frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-                            </div>
-                            <p>Spicy jalapeno cillum mollit in short ribs meatball. Beef ribs sunt nulla, quis deserunt
-                                short ribs ut.</p>
+
+
+                            <button type="button" class="btn-block btn-primary video-btn youtube-modal" data-toggle="modal" data-src="https://www.youtube.com/embed/NlhgHVZ5x5c" data-target="#myModal">
+                                <img class="embed-responsive embed-responsive-16by9" src="http://img.youtube.com/vi/NlhgHVZ5x5c/hqdefault.jpg" />
+                            </button>
+
+
+                            <br>
+
+                            <p>Rejuvenecimiento de Jailene Cintron con Células Madre</p>
                         </div>
                     </div>
                 </div>
@@ -159,14 +107,19 @@
 
                 <div class="col-md-4">
                     <div class="card">
-                        <h5 class="card-header">Testimonio 2</h5>
+                        <h5 class="card-header">Mejora de la vista</h5>
                         <div class="card-body">
-                            <div class="embed-responsive embed-responsive-16by9">
-                                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/NlhgHVZ5x5c"
-                                        frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-                            </div>
-                            <p>Strip steak esse consequat jowl, boudin drumstick sint leberkas sausage adipisicing cupim
-                                elit duis short ribs flank.</p>
+
+                            <button type="button" class="btn-block btn-primary video-btn youtube-modal" data-toggle="modal" data-src="https://www.youtube.com/embed/K4_bqrWRKbs" data-target="#myModal">
+                                <img class="embed-responsive embed-responsive-16by9" src="http://img.youtube.com/vi/K4_bqrWRKbs/hqdefault.jpg" />
+                            </button>
+
+
+                            <br>
+
+                            <p>Testimonio Células Madre, Mejora de la vista y Antiaging</p>
+
+
                         </div>
                     </div>
                 </div>
@@ -174,14 +127,21 @@
 
                 <div class="col-md-4">
                     <div class="card">
-                        <h5 class="card-header">Testimonio 3</h5>
+                        <h5 class="card-header">Distrofia Muscular</h5>
                         <div class="card-body">
-                            <div class="embed-responsive embed-responsive-16by9">
-                                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/NlhgHVZ5x5c"
-                                        frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-                            </div>
-                            <p>Sausage deserunt reprehenderit anim. Burgdoggen dolore andouille ut bacon capicola ut
-                                fugiat jerky incididunt nostrud.</p>
+
+
+                            <button type="button" class="btn-block btn-primary video-btn youtube-modal" data-toggle="modal" data-src="https://www.youtube.com/embed/d9d0t8BNILQ" data-target="#myModal">
+                                <img class="embed-responsive embed-responsive-16by9" src="http://img.youtube.com/vi/d9d0t8BNILQ/hqdefault.jpg" />
+                            </button>
+
+
+                            <br>
+
+                            <p>Testimonio Distrofia Muscular y Células Madre</p
+
+
+
                         </div>
                     </div>
                 </div>
@@ -196,6 +156,28 @@
         </div>
         </div>
     </section>
+
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+
+
+                <div class="modal-body">
+
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                    <!-- 16:9 aspect ratio -->
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe class="embed-responsive-item" src="" id="video"  allowscriptaccess="always">></iframe>
+                    </div>
+
+
+                </div>
+
+            </div>
+        </div>
+    </div>
 
 
 <?php include "include/footer.php"; ?>
