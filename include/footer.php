@@ -43,12 +43,12 @@
         <section>
             <div class="container" id="footerBranding">
                 <div class="row text-center">
-                    <div class="col-md-2 col-sm-4"><img src="img/a4m.png" alt=""></div>
-                    <div class="col-md-2 col-sm-4"><img src="img/camara-de-comercio.png" alt=""></div>
-                    <div class="col-md-2 col-sm-4"><img src="img/fda.png" alt=""></div>
-                    <div class="col-md-2 col-sm-4"><img src="img/lpw.png" alt=""></div>
-                    <div class="col-md-2 col-sm-4"><img src="img/ministerio-de-salud-publica.png" alt=""></div>
-                    <div class="col-md-2 col-sm-4"><img src="img/placid-way.png" alt=""></div>
+                    <div class="col-md-3 col-xs-6"><img src="img/a4m.png" alt=""></div>
+<!--                    <div class="col-md-2 col-sm-4"><img src="img/camara-de-comercio.png" alt=""></div>-->
+                    <div class="col-md-3 col-xs-6"><img src="img/fda.png" alt=""></div>
+                    <div class="col-md-3 col-xs-6"><img src="img/lpw.png" alt=""></div>
+<!--                    <div class="col-md-2 col-sm-4"><img src="img/ministerio-de-salud-publica.png" alt=""></div>-->
+                    <div class="col-md-3 col-xs-6"><img src="img/placid-way.png" alt=""></div>
                 </div>
             </div>
             <div class="row">

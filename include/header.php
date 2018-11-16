@@ -60,9 +60,9 @@
     </div>
     <div class="col-sm-12 d-flex flex-row-reverse text-right " id="socialIcons">
         <ul class="navbar-nav flex-row d-none d-lg-flex">
-            <li class="nav-item"><a class="nav-link px-2 icon whatsapp" href="#"></a></li>
-            <li class="nav-item"><a class="nav-link px-2" href="#"><span class="fa"> 809-555-6666</span></a>
-            </li>
+<!--            <li class="nav-item"><a class="nav-link px-2 icon whatsapp" href="#"></a></li>-->
+<!--            <li class="nav-item"><a class="nav-link px-2" href="#"><span class="fa"> 809-555-6666</span></a>-->
+<!--            </li>-->
             <li class="nav-item">
                 <a class="nav-link px-2 icon facebook" href="#">
                     <!--                    <span class="fa fa-facebook"></span>-->
