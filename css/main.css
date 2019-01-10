@@ -149,7 +149,7 @@ section {
 
 footer {
     text-align: right;
-    height: 250px;
+    height: auto;
     /*bottom: 0;*/
     width: 100%;
     background: #66518E;
@@ -242,6 +242,31 @@ li.active {
     /*-webkit-transition:all .5s ease-in;*/
     /*transition:all .5s ease-in;*/
     border-bottom: #66518E 2px solid;
+}
+
+.borderless td, .borderless th {
+    border: none;
+}
+
+#bottomNav tr td{
+    padding: 0.2em;
+    text-decoration: underline;
+    text-decoration-color: #ac94e5;
+}
+
+#bottomNav tr td a{
+    color: white;
+
+}
+
+#bottomNav tr td a:after {
+    /*font-family:'FontAwesome';*/
+    font-size: 1.1em;
+    font-weight: bold;
+    content:">";
+    float: left;
+    color: inherit;
+    padding-right: 5px ;
 }
 
 .fa {

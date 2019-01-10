@@ -1,21 +1,64 @@
 <!--BEGINNING OF FOOTER-->
 
-
         <footer class="py-5 navbar-light bg-faded">
             <div class="container">
                 <div class="row">
-                    <div class="col-3 col-md text-center">
-                        <h5>Features</h5>
-                        <ul class="list-unstyled text-small" id="">
-                            <li><a class="text-muted" href="#">Cool stuff</a></li>
-                            <li><a class="text-muted" href="#">Random feature</a></li>
-                            <li><a class="text-muted" href="#">Team feature</a></li>
-                            <li><a class="text-muted" href="#">Stuff for developers</a></li>
-                            <li><a class="text-muted" href="#">Another one</a></li>
-                            <li><a class="text-muted" href="#">Last time</a></li>
-                        </ul>
+
+                    <div class="col-4 col-md">
+                        <table class="text-left table borderless" id="bottomNav">
+                            <th>
+                                <td>ENLACES</td>
+                            </th>
+                            <tr>
+                                <td><a href="index.php">Inicio</a></td>
+                                <td><a href="tratamientos_clinicos.php">Tratamientos Clinicos</a></td>
+                            </tr>
+                            <tr>
+                                <td><a href="nosotros.php">Nosotros</a></td>
+                                <td><a href="tratamientos_cosmeticos.php">Tratamientos Cosmeticos</a></td>
+                            </tr>
+                            <tr>
+                                <td><a href="faq.php">Preguntas</a></td>
+                                <td><a href="tratamientos_ort_trm.php">Uso en Ortopedia</a></td>
+                            </tr>
+                            <tr>
+                                <td><a href="testimonios.php">Testimonios</a></td>
+                                <td><a href="instalaciones_rd.php">Instalaciones en R.D.</a></td>
+                            </tr>
+                            <tr>
+                                <td><a href="contacto.php">Contactenos</a></td>
+                                <td><a href="instalaciones_usa.php">Instalaciones en U.S.A.</a></td>
+                            </tr>
+                        </table>
                     </div>
-                    <div class="col-6 col-md text-center">
+
+<!--                    <div class="col-2 col-xs">-->
+<!--                            <ul class="text-small text-left col-6 col-xs fa-ul">-->
+<!--                                <li><span class="fa-li"><i class="fas fa-greater-than"></i></span>Inicio</li>-->
+<!--                                <li>Nosotros</li>-->
+<!--                                <li>Tratamientos</li>-->
+<!--                                <ul class="text-small text-left ">-->
+<!--                                    <li>Clinico</li>-->
+<!--                                    <li>Cosmetico</li>-->
+<!--                                    <li>Otrtopedia</li>-->
+<!--                                </ul>-->
+<!--                                <li>Preguntas</li>-->
+<!--                            </ul>-->
+<!--                    </div>-->
+<!---->
+<!--                    <div class="col-2 col-xs">-->
+<!--                            <ul class="text-small text-left col-xs">-->
+<!--                                <li>Testimonios</li>-->
+<!--                                <li>Instalaciones</li>-->
+<!--                                <ul class="text-small text-left ">-->
+<!--                                    <li>Estados Unidos</li>-->
+<!--                                    <li>Republica Dominicana</li>-->
+<!--                                </ul>-->
+<!--                                <li>Contactenos</li>-->
+<!--                            </ul>-->
+<!--                    </div>-->
+
+                    <div class="col-4 col-md text-center">
                         <h5>INSCRÍBETE AL BOLETÍN</h5>
                         <p>Al suscribirte a nuestra lista de correo siempre estarás actualizado con las últimas novedades.</p>
                         <div class="input-group mb-3">
@@ -26,7 +69,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-3 col-md text-center">
+                    <div class="col-4 col-md text-center">
                         <h5>About</h5>
                         <ul class="list-unstyled text-small">
                             <li><a class="text-muted" href="#">Team</a></li>
