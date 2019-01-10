@@ -5,10 +5,8 @@
                 <div class="row">
 
                     <div class="col-4 col-md">
+                        <h5 class="leftHeader">ENLACES</h5>
                         <table class="text-left table borderless" id="bottomNav">
-                            <th>
-                                <td>ENLACES</td>
-                            </th>
                             <tr>
                                 <td><a href="index.php">Inicio</a></td>
                                 <td><a href="tratamientos_clinicos.php">Tratamientos Clinicos</a></td>

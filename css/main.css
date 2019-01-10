@@ -346,3 +346,7 @@ li.active {
     text-align: justify;
     font-size: 1.2em;
 }
+
+.leftHeader {
+    text-align: left;
+}
