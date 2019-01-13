@@ -350,3 +350,30 @@ li.active {
 .leftHeader {
     text-align: left;
 }
+
+/*.bottomIcons div img, .bottomIcons div p {*/
+    /*display: inline;*/
+/*}*/
+
+/*.bottomIcons div img{*/
+    /*width: 5px;*/
+    /*!*height: 10px;*!*/
+    /*margin-right: 15px;*/
+/*}*/
+
+.bottomIcons {
+    padding-left: 40px;
+}
+
+.bottomIcons > div > img {
+    height: 25px;
+    /*margin-right: 5px;*/
+}
+
+.bottomIcons > div > p {
+    text-align: -webkit-right;
+    text-align: -moz-right;
+    text-align: right;
+    text-align: right;
+}
+

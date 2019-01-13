@@ -4,7 +4,7 @@
             <div class="container">
                 <div class="row">
 
-                    <div class="col-4 col-md">
+                    <div class="col-md-4">
                         <h5 class="leftHeader">ENLACES</h5>
                         <table class="text-left table borderless" id="bottomNav">
                             <tr>
@@ -56,7 +56,7 @@
 <!--                            </ul>-->
 <!--                    </div>-->
 
-                    <div class="col-4 col-md text-center">
+                    <div class="col-md-4 text-center">
                         <h5>INSCRÍBETE AL BOLETÍN</h5>
                         <p>Al suscribirte a nuestra lista de correo siempre estarás actualizado con las últimas novedades.</p>
                         <div class="input-group mb-3">
@@ -67,15 +67,34 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-4 col-md text-center">
-                        <h5>About</h5>
-                        <ul class="list-unstyled text-small">
-                            <li><a class="text-muted" href="#">Team</a></li>
-                            <li><a class="text-muted" href="#">Locations</a></li>
-                            <li><a class="text-muted" href="#">Privacy</a></li>
-                            <li><a class="text-muted" href="#">Terms</a></li>
-                        </ul>
+
+                    <div class="col-md-4 col-xs-12 bottomIcons">
+
+
+                            <div class="row">
+                                <img src="img/icons/ico-telefono-blanco.png" alt="telefono">
+                                <p class="text-left col">+1-809-555-6666</p>
+                            </div>
+                            <div class="row text-right">
+                                <img src="img/icons/ico-mail-blanco.png" alt="Correo electronico">
+                                <p class="text-left col">info@stemprocelldr.com</p>
+                            </div>
+                            <div class="row text-right">
+                                <img src="img/icons/ico-home-blanco.png" alt="Direccion">
+                                <p class="text-left col">Avenida Lope de Vega No. 29, Edif Novo Centro, suite 603, Santo Domingo</p>
+                            </div>
+
+
                     </div>
+<!--                    <div class="col-md-4 text-center">-->
+<!--                        <h5>About</h5>-->
+<!--                        <ul class="list-unstyled text-small">-->
+<!--                            <li><a class="text-muted" href="#">Team</a></li>-->
+<!--                            <li><a class="text-muted" href="#">Locations</a></li>-->
+<!--                            <li><a class="text-muted" href="#">Privacy</a></li>-->
+<!--                            <li><a class="text-muted" href="#">Terms</a></li>-->
+<!--                        </ul>-->
+<!--                    </div>-->
                 </div>
 
             </div>
